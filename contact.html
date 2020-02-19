@@ -28,8 +28,10 @@
           </button>
         </nav>
       </div>
+      <!-- Make contact form with bootstrap -->
     <h1>CONTACT</h1>
-      <div class="container">
+    <hr>
+      <!-- <div class="container">
         <div class="row justify-content-center" style="padding: 20px;">
           <div class="col-12">
             <a href="mailto:nick.bombicino@gmail.com">Email me!</a>
@@ -37,10 +39,64 @@
         </div>
         <div class="row justify-content-center" style="padding: 20px;">
           <div class="col-12">
-            <a href="www.instagram.com/nickbombicino">Instagram</a>
+            <a href="www.instagram.com/nickbombicino">Find me on Instagram!</a>
           </div>
         </div>
+      </div> -->
+
+      <!-- I found this contact form below that I'd like to use, but I'm not sure about using Formspree. I'm including it here as a placeholder-->
+        
+        <div class="container">
+        <h2 class="text-center">Let's work together</h2>
+        <hr>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <form action="https://formspree.io/nick.bombicino@gmail.com" role="form"   method="POST" autocomplete="on">
+                  <div class="control-group">
+                    <div class="form-group floating-label-form-group controls">
+                      <input type="text" class="form-control" name="name" placeholder="Name" required>
+                    </div>
+                  </div>
+    
+                  <div class="control-group">
+                    <div class="form-group floating-label-form-group controls">
+                      <input type="email" class="form-control form-input" placeholder="Email" required>
+                    </div>
+                  </div>
+    
+                  <div class="control-group">
+                    <div class="form-group floating-label-form-group controls">
+                      <textarea class="form-control" id="message" name="message" rows="5" width="100%" placeholder="Tell me about your project" required></textarea>
+                    </div>
+                  </div>
+                  <br>
+                    <div>
+                      <!-- Extra field to avoid spam by fooling scrapers. If a value is provided, the submission will be silently ignored. -->
+                      <input type="text" name="_gotcha" style="display:none" />
+                    </div>
+                  <div>
+                    <input type="submit" class="btn btn-primary" value="Send">
+                    <input type="hidden" name="_subject" value="New submission!" />
+                  </div>
+                  <br>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+       </div>     
+    </section>
+
+    <div class="card">
+      <div class="card-footer">
       </div>
+      <div class="card-body">
+        <blockquote class="blockquote mb-0">
+          <p style="text-align: center;">-web design by donutbear-</p>
+        </blockquote>
+      </div>
+    </div>
 
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

@@ -33,8 +33,12 @@ a:active {
 }
 /* Centered text */
 .centered {
-    position: absolute;
-    top: 50%;
+    position: relative;
+    /* top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
+  }
+
+  #bio-img {
+        justify-content:flex-end; 
   }
