@@ -1,3 +1,11 @@
+.bg-nvy{
+    background-color: rgb(10, 10, 107);
+}
+
+.bg-wht{
+    background-color: rgb(196, 193, 187)
+}
+
 h1 {
     text-align: center;
     font-size: 60px;
@@ -6,6 +14,7 @@ h1 {
 .jumbotron {
     background-image: url("assets/3.jpg");
     background-size: cover;
+    height: 500px;
 }
 .cent {
     text-align: center;
@@ -18,7 +27,9 @@ a {
 img:hover {
     height: 200px;
 }
-
+strong{
+    font-size: 18px;
+}
 a:default {
     font-size: 16px;
 }
@@ -34,6 +45,7 @@ a:active {
 /* Centered text */
 .centered {
     position: relative;
+    text-align: center;
     /* top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); */
@@ -42,3 +54,7 @@ a:active {
   #bio-img {
         justify-content:flex-end; 
   }
+
+.port-row{
+    margin: 20px;
+}
