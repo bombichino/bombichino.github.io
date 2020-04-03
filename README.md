@@ -11,3 +11,8 @@ Wherein we must include index.html, portfolio.html, and contact.html pages as we
 - Using Boostrap's grid layout, designed the basics of content, images, bio information, all to be filled in over time.
 - Left room for further design elements as time goes on.
 - Began incorporating contact form, not currently happy with host of choice. Will find an alternative for future functionality. Current form included as a placeholder; see pseudocode on contact.html
+- As the class progressed, added responsive elements and projects amassed through the semester.
+
+## Future improvements
+
+- Polish design further, search for more dynamic backgrounds and refine color scheme.
